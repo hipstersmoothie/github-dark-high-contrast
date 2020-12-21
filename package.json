@@ -13,6 +13,7 @@
   "categories": [
     "Themes"
   ],
+  "keywords": ["dark", "dark mode", "theme", "github"],
   "icon": "https://raw.githubusercontent.com/hipstersmoothie/github-dark-high-contrast/master/github-256.png",
   "contributes": {
     "themes": [
