@@ -5,7 +5,7 @@
   "description": "A theme that emulates GitHub in dark mode but with higher contrast",
   "author": "Andrew Lisowski <lisowski54@gmail.com>",
   "repository": "https://github.com/hipstersmoothie/github-dark-high-contrast",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "license": "MIT",
   "engines": {
     "vscode": "^1.52.0"
@@ -13,7 +13,12 @@
   "categories": [
     "Themes"
   ],
-  "keywords": ["dark", "dark mode", "theme", "github"],
+  "keywords": [
+    "dark",
+    "dark mode",
+    "theme",
+    "github"
+  ],
   "icon": "github-256.png",
   "contributes": {
     "themes": [
