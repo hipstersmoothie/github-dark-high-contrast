@@ -1,21 +1,26 @@
 {
-    "name": "github-dark-high-contrast",
-    "displayName": "github-dark-high-contrast",
-    "description": "A theme that emulates GitHub in dark mode but with higher contrast",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.52.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "GitHub Dark High Contrast",
-                "uiTheme": "hc-black",
-                "path": "./themes/GitHub Dark High Contrast-color-theme.json"
-            }
-        ]
-    }
+  "name": "github-dark-high-contrast",
+  "publisher": "hipstersmoothie-public",
+  "displayName": "Github Dark High Contrast",
+  "description": "A theme that emulates GitHub in dark mode but with higher contrast",
+  "author": "Andrew Lisowski <lisowski54@gmail.com>",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.52.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "GitHub Dark High Contrast",
+        "uiTheme": "hc-black",
+        "path": "./themes/GitHub Dark High Contrast-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "auto": "^10.4.2"
+  }
 }

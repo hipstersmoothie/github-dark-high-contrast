@@ -2,7 +2,6 @@
 	"name": "GitHub Dark High Contrast",
 	"type": "hc",
 	"colors": {
-		"selection.background": "#008000",
 		"activityBar.activeBackground": "#000000",
 		"activityBar.activeBorder": "#707070",
 		"activityBar.background": "#000000",
@@ -29,20 +28,10 @@
 		"dropdown.background": "#0d1117",
 		"dropdown.border": "#1b1f23",
 		"dropdown.foreground": "#e1e4e8",
-    "dropdown.listBackground": "#24292e",
-    "window.activeBorder": "#000",
-    
-    // Editor settings
-    
 		"editor.background": "#0a0d12",
-		"editor.foreground": "#e1e4e8",
-    "editor.selectionBackground": "#d1d5da",
-    "editor.inactiveSelectionBackground": "#6a737d",
-    
-		"editor.findMatchBackground": "#f6f8fa",
-		"editor.findMatchHighlightBackground": "#ffd33d22",
 		"editor.focusedStackFrameHighlightBackground": "#bb880088",
 		"editor.foldBackground": "#282e33",
+		"editor.foreground": "#e1e4e8",
 		"editor.lineHighlightBackground": "#000000",
 		"editor.lineHighlightBorder": "#fb863283",
 		"editor.selectionHighlightBackground": "#17e5e633",
@@ -116,6 +105,7 @@
 		"scrollbarSlider.activeBackground": "#6a737d88",
 		"scrollbarSlider.background": "#6a737d33",
 		"scrollbarSlider.hoverBackground": "#6a737d44",
+		"selection.background": "#008000",
 		"settings.headerForeground": "#e1e4e8",
 		"settings.modifiedItemIndicator": "#0366d6",
 		"sideBar.background": "#040507",
@@ -156,15 +146,22 @@
 		"titleBar.activeBackground": "#000000",
 		"titleBar.activeForeground": "#e1e4e8",
 		"titleBar.border": "#1b1f23",
-    "notifications.background": "#000",
-    "notificationToast.border": "#586069",
 		"titleBar.inactiveBackground": "#000000",
 		"titleBar.inactiveForeground": "#959da5",
 		"tree.indentGuidesStroke": "#2f363d",
 		"welcomePage.buttonBackground": "#2f363d",
 		"welcomePage.buttonHoverBackground": "#444d56",
     "button.background": "#044289",
-    "button.hoverBackground": "#0366d6"
+    "button.hoverBackground": "#0366d6",
+    "dropdown.listBackground": "#24292e",
+    "editor.findMatchBackground": "#6a737d",
+    "editor.findMatchBorder": "#0366d6",
+    "editor.findMatchHighlightBackground": "#000",
+    "editor.inactiveSelectionBackground": "#6a737d",
+    "editor.selectionBackground": "#d1d5da",
+    "notifications.background": "#000",
+    "notificationToast.border": "#586069",
+    "window.activeBorder": "#000",
 	},
 	"tokenColors": [
 		{
