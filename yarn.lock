@@ -2,34 +2,17 @@
 # yarn lockfile v1
 
 
-"@auto-canary/auto@10.4.3-canary.1696.20788.0":
-  version "10.4.3-canary.1696.20788.0"
-  resolved "https://registry.yarnpkg.com/@auto-canary/auto/-/auto-10.4.3-canary.1696.20788.0.tgz#7bcd8658548b27b4d0f43813b9133b0adf73f03e"
-  integrity sha512-hucsm2IlHeC8f9yMQ4NNLFbjZshGs6ldU4+uOIIfeOXWL5NxcyesKEZZnLEY7qTU4w+QqNdSbiKAjLQY2IkHXA==
-  dependencies:
-    "@auto-canary/core" "10.4.3-canary.1696.20788.0"
-    "@auto-canary/npm" "10.4.3-canary.1696.20788.0"
-    "@auto-canary/released" "10.4.3-canary.1696.20788.0"
-    await-to-js "^2.1.1"
-    chalk "^4.0.0"
-    command-line-application "^0.10.1"
-    endent "^2.0.1"
-    module-alias "^2.2.2"
-    signale "^1.4.0"
-    terminal-link "^2.1.1"
-    tslib "2.0.3"
+"@auto-it/bot-list@10.5.0":
+  version "10.5.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/bot-list/-/bot-list-10.5.0.tgz#bde350409e0793a950ac5f1f7adc705f1c3ffa05"
+  integrity sha512-D9F4qLEApjiOjVIgJlYTh/qOugBZIXU7fPSqNvXdbbzfH8i3dsLSlxg37bzSaFpPnDfEdPWmWQAtdupCgeORTQ==
 
-"@auto-canary/bot-list@10.4.3-canary.1696.20788.0":
-  version "10.4.3-canary.1696.20788.0"
-  resolved "https://registry.yarnpkg.com/@auto-canary/bot-list/-/bot-list-10.4.3-canary.1696.20788.0.tgz#2469d31377318d6820e1810a46a93152162fed27"
-  integrity sha512-uhTfpsjabUyGE/7WD6sSx9kMTEowTLYrvMS2dB8U9+jW5c8XYupE3oqob6gtuH+ElUbpDE6fjVoF9Oqrrr6Z0w==
-
-"@auto-canary/core@10.4.3-canary.1696.20788.0":
-  version "10.4.3-canary.1696.20788.0"
-  resolved "https://registry.yarnpkg.com/@auto-canary/core/-/core-10.4.3-canary.1696.20788.0.tgz#36301cf1ed913d66ad8ec702c50f5fc28ed8ae8e"
-  integrity sha512-EAuszY2R5YlVUtNU70S04COuG3AhNZvwE0eaCEk6Kqh1HCAUz3Sp9sJaXTyQRRwnme0uCaKFfYHPRON+48BfmQ==
+"@auto-it/core@10.5.0":
+  version "10.5.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/core/-/core-10.5.0.tgz#ef09096a2a39f1492ae84dc062e59a4d909dc8f7"
+  integrity sha512-OYXOTcvHUTrVdCVoxjOFFsRzpItCBriGLhd42NQw59WS0txc9kKKRbPHRySoafPDyb+YeD4w34/1R/eKVTGYdw==
   dependencies:
-    "@auto-canary/bot-list" "10.4.3-canary.1696.20788.0"
+    "@auto-it/bot-list" "10.5.0"
     "@octokit/plugin-enterprise-compatibility" "^1.2.2"
     "@octokit/plugin-retry" "^3.0.1"
     "@octokit/plugin-throttling" "^3.2.0"
@@ -66,13 +49,13 @@
     typescript-memoize "^1.0.0-alpha.3"
     url-join "^4.0.0"
 
-"@auto-canary/npm@10.4.3-canary.1696.20788.0":
-  version "10.4.3-canary.1696.20788.0"
-  resolved "https://registry.yarnpkg.com/@auto-canary/npm/-/npm-10.4.3-canary.1696.20788.0.tgz#f4139b4959616f28dda61271763ab1e856b894f9"
-  integrity sha512-D19o7NKl9h5GgQv0vPU4zOA7AdDO8JAcygqHINRro0I4gx2jIAJU2CGCa3PM2PtXtmn/ppOFFOXFyvaneHOZcQ==
+"@auto-it/npm@10.5.0":
+  version "10.5.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/npm/-/npm-10.5.0.tgz#1c5992dfba656eee4087db734c7ad7cf8860b43d"
+  integrity sha512-+hu9peM9npJxTHvm9LU3djujLjh35gBW5kmb5bmXBvSpGBBg6n9wAIO0hNswDYr5P9UB+C8LuP4JO5zNk5SY7Q==
   dependencies:
-    "@auto-canary/core" "10.4.3-canary.1696.20788.0"
-    "@auto-canary/package-json-utils" "10.4.3-canary.1696.20788.0"
+    "@auto-it/core" "10.5.0"
+    "@auto-it/package-json-utils" "10.5.0"
     await-to-js "^2.1.1"
     env-ci "^5.0.1"
     fp-ts "^2.5.3"
@@ -85,33 +68,33 @@
     url-join "^4.0.0"
     user-home "^2.0.0"
 
-"@auto-canary/package-json-utils@10.4.3-canary.1696.20788.0":
-  version "10.4.3-canary.1696.20788.0"
-  resolved "https://registry.yarnpkg.com/@auto-canary/package-json-utils/-/package-json-utils-10.4.3-canary.1696.20788.0.tgz#f0bb6574d943c0b058d344c1fc6bc8128a5c70b4"
-  integrity sha512-vRgJGiPs/fgWSnNeaNNBZWw2EP8Hsb5nFWXar2hCkhJYhPWOR8JZLiegaFmMxuzHp0/11J36JVYBQnWzVm3LYQ==
+"@auto-it/package-json-utils@10.5.0":
+  version "10.5.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/package-json-utils/-/package-json-utils-10.5.0.tgz#8117cf86b562c4fb6fae28f2fe9a2f42cb98453a"
+  integrity sha512-ZuSBV4oWQSR9iEd3RDptsOyQfA2aYAUNTShXbV+Z1aP3rIR7c8LFj8dT63OOIy+axIQN9EUUBx9VvoKRnUamOw==
   dependencies:
     parse-author "^2.0.0"
     parse-github-url "1.0.2"
 
-"@auto-canary/released@10.4.3-canary.1696.20788.0":
-  version "10.4.3-canary.1696.20788.0"
-  resolved "https://registry.yarnpkg.com/@auto-canary/released/-/released-10.4.3-canary.1696.20788.0.tgz#c3b60b4657d98df09e97a0110175daec35be1ff7"
-  integrity sha512-n98br6YSBLcJXApXtnSxPgJbux+UzENWN96/5Szx0PeKwbFHBIoUaWt8V240iA5PA76CzC8sTMAYuYGJe4d1xQ==
+"@auto-it/released@10.5.0":
+  version "10.5.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/released/-/released-10.5.0.tgz#cb5824ca814bc336c5dcc95af81c14fd16bf2960"
+  integrity sha512-iA5M5FRzgrb2dR0fcQ7Uf9lIwDHl5ZhzciPkuw4QV/OrUGKhM3/ETM64R8jQLKFF6kJRQrfxRZv08nCJ3+cpYg==
   dependencies:
-    "@auto-canary/bot-list" "10.4.3-canary.1696.20788.0"
-    "@auto-canary/core" "10.4.3-canary.1696.20788.0"
+    "@auto-it/bot-list" "10.5.0"
+    "@auto-it/core" "10.5.0"
     deepmerge "^4.0.0"
     fp-ts "^2.5.3"
     io-ts "^2.1.2"
     tslib "2.0.3"
 
-"@auto-canary/vscode@10.4.3-canary.1696.20788.0":
-  version "10.4.3-canary.1696.20788.0"
-  resolved "https://registry.yarnpkg.com/@auto-canary/vscode/-/vscode-10.4.3-canary.1696.20788.0.tgz#0f449a0470616696f33d68588a617b4ebf8fb050"
-  integrity sha512-iTb9cIfIYwxNyY4AfmhxAibOxWzWDGJwgqZngBeWTBoZtFditpUi6ZwhZBe3ujHeG0qRYnzReXDO7HetAC+mPA==
+"@auto-it/vscode@10.5.0":
+  version "10.5.0"
+  resolved "https://registry.yarnpkg.com/@auto-it/vscode/-/vscode-10.5.0.tgz#d787895527b8db664f62a26597e66295414222ec"
+  integrity sha512-2LauIyxHK6kfPIE7YaHyxuuia9XozrioZwzw8vL56Aj70xCEEYy9oUvyEAdJ1xgvUG9vlXN/3AW6e0/Cvud4MQ==
   dependencies:
-    "@auto-canary/core" "10.4.3-canary.1696.20788.0"
-    "@auto-canary/package-json-utils" "10.4.3-canary.1696.20788.0"
+    "@auto-it/core" "10.5.0"
+    "@auto-it/package-json-utils" "10.5.0"
     fp-ts "^2.5.3"
     io-ts "^2.1.2"
     semver "^7.0.0"
@@ -373,6 +356,23 @@ author-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/author-regex/-/author-regex-1.0.0.tgz#d08885be6b9bbf9439fe087c76287245f0a81450"
   integrity sha1-0IiFvmubv5Q5/gh8dihyRfCoFFA=
+
+auto@10.5.0:
+  version "10.5.0"
+  resolved "https://registry.yarnpkg.com/auto/-/auto-10.5.0.tgz#d6551109c5ef962b439820f715a0f1955add288a"
+  integrity sha512-9yimHCL+3XDRLYC7qRxA9gQTrheoYF+RnQKqMA4xA+hFXatyzsbIlLycBdYvPqTEKyPfSEJ0kfKLQuEWI3jPEQ==
+  dependencies:
+    "@auto-it/core" "10.5.0"
+    "@auto-it/npm" "10.5.0"
+    "@auto-it/released" "10.5.0"
+    await-to-js "^2.1.1"
+    chalk "^4.0.0"
+    command-line-application "^0.10.1"
+    endent "^2.0.1"
+    module-alias "^2.2.2"
+    signale "^1.4.0"
+    terminal-link "^2.1.1"
+    tslib "2.0.3"
 
 await-to-js@^2.1.1:
   version "2.1.1"
