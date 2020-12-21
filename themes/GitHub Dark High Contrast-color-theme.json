@@ -157,7 +157,7 @@
     "editor.findMatchBackground": "#ffffff3e",
     "editor.findMatchBorder": "#0366d6",
     "editor.findMatchHighlightBackground": "#d1cfcf3e",
-    "editor.inactiveSelectionBackground": "#6a737d",
+    "editor.inactiveSelectionBackground": "#707070",
     "editor.selectionBackground": "#d1d5da",
     "notifications.background": "#000",
     "notificationToast.border": "#586069",
