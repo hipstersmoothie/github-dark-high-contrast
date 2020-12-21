@@ -6,6 +6,7 @@
   "author": "Andrew Lisowski <lisowski54@gmail.com>",
   "repository": "https://github.com/hipstersmoothie/github-dark-high-contrast",
   "version": "0.0.8",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.52.0"
   },
