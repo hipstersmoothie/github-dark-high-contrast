@@ -12,6 +12,7 @@
   "categories": [
     "Themes"
   ],
+  "icon": "https://raw.githubusercontent.com/hipstersmoothie/github-dark-high-contrast/master/github-256.png",
   "contributes": {
     "themes": [
       {
