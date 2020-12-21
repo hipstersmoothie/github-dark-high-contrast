@@ -2,6 +2,21 @@
 
 #### ⚠️ Pushed to `master`
 
+- fix icon path ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- add keywords ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- add license ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- add logo ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
+# v0.0.8 (Mon Dec 21 2020)
+
+#### ⚠️ Pushed to `master`
+
 - add keywords ([@hipstersmoothie](https://github.com/hipstersmoothie))
 - add license ([@hipstersmoothie](https://github.com/hipstersmoothie))
 - add logo ([@hipstersmoothie](https://github.com/hipstersmoothie))
