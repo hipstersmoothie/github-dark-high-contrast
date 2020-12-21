@@ -1,3 +1,15 @@
+# v0.0.8 (Mon Dec 21 2020)
+
+#### ⚠️ Pushed to `master`
+
+- add logo ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v0.0.7 (Mon Dec 21 2020)
 
 #### ⚠️ Pushed to `master`
