@@ -21,6 +21,9 @@
       }
     ]
   },
+  "resolutions": {
+    "cheerio": "1.0.0-rc.3"
+  },
   "devDependencies": {
     "@auto-canary/auto": "10.4.3-canary.1696.20788.0",
     "@auto-canary/released": "10.4.3-canary.1696.20788.0",
