@@ -30,9 +30,9 @@
     ]
   },
   "devDependencies": {
-    "auto": "10.5.0",
-    "@auto-it/released": "10.5.0",
-    "@auto-it/vscode": "10.5.0"
+    "@auto-it/released": "10.46.0",
+    "@auto-it/vscode": "10.46.0",
+    "auto": "10.46.0"
   },
   "auto": {
     "plugins": [
